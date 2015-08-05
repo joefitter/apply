@@ -1,6 +1,6 @@
 'use strict';
 
-import $ from 'jquery';
+import $ from 'jquery/dist/jquery';
 import Backbone from 'backbone';
 import Marionette from 'backbone.marionette';
 
