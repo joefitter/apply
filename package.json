@@ -1,0 +1,24 @@
+{
+  "name": "apply",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "format": "es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joefitter/apply.git"
+  },
+  "author": "Joe Fitter <hello@joefitter.com> (http://joefitter.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joefitter/apply/issues"
+  },
+  "homepage": "https://github.com/joefitter/apply",
+  "dependencies": {
+    "backbone.marionette": "^2.4.2",
+    "jquery": "^2.1.4"
+  }
+}
