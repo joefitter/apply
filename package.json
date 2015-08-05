@@ -1,5 +1,5 @@
 {
-  "name": "apply",
+  "name": "apply-test",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   "format": "es6",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joefitter/apply.git"
+    "url": "https://github.com/joefitter/apply-test.git"
   },
   "author": "Joe Fitter <hello@joefitter.com> (http://joefitter.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joefitter/apply/issues"
+    "url": "https://github.com/joefitter/apply-test/issues"
   },
-  "homepage": "https://github.com/joefitter/apply",
+  "homepage": "https://github.com/joefitter/apply-test",
   "dependencies": {
     "backbone.marionette": "^2.4.2",
     "jquery": "^2.1.4"
