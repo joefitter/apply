@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/joefitter/apply-test",
   "dependencies": {
+    "backbone.marionette": "^2.4.2",
     "marionette": "0.0.0"
   }
 }
