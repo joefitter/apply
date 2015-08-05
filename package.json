@@ -27,6 +27,7 @@
     "handlebars": "^3.0.3",
     "i18next": "^1.10.4",
     "jquery": "^2.1.4",
+    "jquery-hammerjs": "git://github.com/ahumphreys87/jquery.hammer.js.git#UMDFix",
     "lodash": "^3.10.1",
     "numeral": "^1.5.3"
   }

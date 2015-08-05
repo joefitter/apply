@@ -3,7 +3,7 @@
 //
 'use strict';
 
-import i18next from 'i18next-client';
+import i18next from 'i18next';
 import Radio from 'backbone.radio';
 
 const resources = {};
