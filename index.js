@@ -1,9 +1,7 @@
 'use strict'
 
-const obj = {
+export default {
 	a: 1,
 	b: 2,
 	c: 3
 };
-
-export default obj;
