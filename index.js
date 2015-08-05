@@ -1,5 +1,5 @@
 'use strict'
 
-const a = 1, b = 2, c = 3;
+import Controller from './controllers/index';
 
-export {a, b, c};
+export {Controller};
