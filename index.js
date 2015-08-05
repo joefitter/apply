@@ -1,7 +1,6 @@
 'use strict';
 
-import $ from 'jquery/dist/jquery';
-import Backbone from 'backbone';
+import $ from 'jquery';
 
 const Orchestra = {
   $
