@@ -1,7 +1,7 @@
 'use strict';
 
-import $ from 'jquery';
 import Backbone from 'backbone';
+import $ from 'jquery';
 
 const Orchestra = {
   $
