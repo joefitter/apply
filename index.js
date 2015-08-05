@@ -1,10 +1,11 @@
 'use strict';
 
 import Backbone from 'backbone';
-import $ from 'jquery';
+import Marionette from 'backbone.marionette';
 
 const Orchestra = {
-  $
+  Marionette,
+  Backbone
 };
 
 export {Orchestra};
