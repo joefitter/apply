@@ -1,5 +1,5 @@
 {
-  "name": "apply-test",
+  "name": "jspm-test",
   "version": "0.0.34",
   "description": "",
   "main": "index.js",
@@ -9,22 +9,17 @@
   "format": "es6",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joefitter/apply-test.git"
+    "url": "https://github.com/joefitter/jspm-test.git"
   },
   "author": "Joe Fitter <hello@joefitter.com> (http://joefitter.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joefitter/apply-test/issues"
+    "url": "https://github.com/joefitter/jspm-test/issues"
   },
-  "homepage": "https://github.com/joefitter/apply-test",
+  "homepage": "https://github.com/joefitter/jspm-test",
   "dependencies": {
     "backbone": "^1.2.1",
     "backbone.marionette": "^2.4.2",
     "jquery": "^2.1.4"
-  },
-  "shim": {
-    "jquery": {
-      "exports": "$"
-    }
   }
 }
