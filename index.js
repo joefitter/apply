@@ -1,11 +1,9 @@
 'use strict';
 
+import $ from 'jquery';
 import Backbone from 'backbone';
 import Marionette from 'backbone.marionette';
 
-const Orchestra = {
-  Marionette,
-  Backbone
-};
+const hi = 'hi';
 
-export {Orchestra};
+export {hi};
