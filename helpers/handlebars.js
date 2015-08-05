@@ -5,7 +5,7 @@
 //
 'use strict';
 
-import HB from 'handlebars/runtime';
+import HB from 'handlebars/handlebars.runtime';
 import translator from './translate';
 import currencyHelper from './currency';
 
