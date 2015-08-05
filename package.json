@@ -20,6 +20,5 @@
   "dependencies": {
     "backbone": "^1.2.1",
     "backbone.marionette": "^2.4.2",
-    "jquery": "^2.1.4"
   }
 }
