@@ -1,6 +1,6 @@
 {
   "name": "jspm-test",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,9 @@
   },
   "shim": {
     "backbone": {
-      "deps": ["jquery"]
+      "deps": [
+        "jquery"
+      ]
     }
   }
 }
