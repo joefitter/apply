@@ -21,6 +21,24 @@ const Orchestra = {};
 _.extend(Orchestra, Backbone);
 _.extend(Orchestra, Backbone.Marionette.extend());
 
+_.extend(Orchestra, {
+  instances: {},
+  getInstance(namespace) {
+    namespace = namespace || 'main';
+    if (!this.instances[namespace]) {
+      this.instances[namespace] = new this.Application({
+        namespace: namespace
+      });
+      this.listenTo(this.instances[namespace], 'destroy', () => {
+        delete this.instances[namespace];
+      });
+      return this.instances[namespace];
+    }
+
+    return this.instances[namespace];
+  }
+});
+
 export {
   $,
   _,
@@ -34,5 +52,5 @@ export {
   LocalStorage,
   Translator,
   Visibility,
-  ModuleHelper
+  ModuleHelper,
 };
