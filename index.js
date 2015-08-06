@@ -1,15 +1,17 @@
 'use strict';
 
 import $ from 'jquery';
+import _ from 'lodash';
 import Backbone from 'backbone';
-import Marionette from 'backbone.marionette';
+import 'backbone.marionette';
 
-const Application = Marionette.Application.extend({
-  onStart() {
-    console.log('start');
-    console.log($);
-    console.log(Backbone.$);
-  }
-});
+const Orchestra = {};
+_.extend(Orchestra, Backbone);
+_.extend(Orchestra, Backbone.Marionette);
 
-export {Application};
+
+export {
+  $,
+  _,
+  Orchestra
+};
